@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33008" started-at="2019-10-19T19:39:31Z" finished-at="2019-10-19T19:40:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33008" started-at="2019-10-19T19:39:31Z" finished-at="2019-10-19T19:40:04Z">
+      <class name="com.aots.qa.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aots.qa.tests.LoginPageTest@8e24743]" name="setUp" is-config="true" duration-ms="13" started-at="2019-10-19T19:39:31Z" finished-at="2019-10-19T19:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createN()[pri:0, instance:com.aots.qa.tests.LoginPageTest@8e24743]" name="createN" is-config="true" duration-ms="6857" started-at="2019-10-19T19:39:31Z" finished-at="2019-10-19T19:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createN -->
+        <test-method status="PASS" signature="LoginwithINValidDetails()[pri:0, instance:com.aots.qa.tests.LoginPageTest@8e24743]" name="LoginwithINValidDetails" duration-ms="725" started-at="2019-10-19T19:39:38Z" finished-at="2019-10-19T19:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithINValidDetails -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.aots.qa.tests.LoginPageTest@8e24743]" name="endTest" is-config="true" duration-ms="236" started-at="2019-10-19T19:39:39Z" finished-at="2019-10-19T19:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="createN()[pri:0, instance:com.aots.qa.tests.LoginPageTest@8e24743]" name="createN" is-config="true" duration-ms="24865" started-at="2019-10-19T19:39:39Z" finished-at="2019-10-19T19:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createN -->
+        <test-method status="PASS" signature="checkAllLinkS()[pri:0, instance:com.aots.qa.tests.LoginPageTest@8e24743]" name="checkAllLinkS" duration-ms="193" started-at="2019-10-19T19:40:04Z" finished-at="2019-10-19T19:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllLinkS -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.aots.qa.tests.LoginPageTest@8e24743]" name="endTest" is-config="true" duration-ms="84" started-at="2019-10-19T19:40:04Z" finished-at="2019-10-19T19:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aots.qa.tests.LoginPageTest@8e24743]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-19T19:40:04Z" finished-at="2019-10-19T19:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.aots.qa.tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
