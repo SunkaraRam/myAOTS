@@ -6,10 +6,14 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TestBase {
@@ -81,7 +85,11 @@ public class TestBase {
 		driver.get(prop.getProperty("url"));
 		
 		
-		
+		WebElement ele=driver.findElement(By.xpath("Path of the button"));
+		WebDriverWait mywait = new WebDriverWait(driver, 20);		
+		mywait.until(ExpectedConditions.visibilityOf(ele));
+
+	
 	}
 		
 
