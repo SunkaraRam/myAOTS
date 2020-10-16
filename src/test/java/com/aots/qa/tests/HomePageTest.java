@@ -6,9 +6,9 @@ public class HomePageTest {
 
 	public static void main(String[] args) {
 		
-		//System.out.println("This is Ram sunkara");
+		System.out.println("This is Ram sunkara");
 	
-		//IntegerSep(123456789);
+		IntegerSep(123456789);
 		
 		StringSep();
 	
@@ -18,7 +18,7 @@ public class HomePageTest {
 		
 		String str = Integer.toString(num);
 		
-		System.out.println(str);
+		System.out.println(str);// It will print the string
 		
 		char[] ch = str.toCharArray();
 		
